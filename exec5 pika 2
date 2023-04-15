@@ -1,0 +1,7 @@
+
+kubectl apply -f pod.yml
+
+kubectl get pods
+
+kubectl get pod app1 --output yaml > out1.yaml
+cat out1.yaml

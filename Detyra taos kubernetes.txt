@@ -1,0 +1,7 @@
+kubectl create ns tct-kursi 
+kubectl run deployment web01 --image=nginx -n tct-kursi
+change he replicaset in 3 
+kubectl delete (emri i podit)
+kubectl pod -A
+2- kubectl run deployment web01 --image=apache -n tct-kursi (replica 1)
+
